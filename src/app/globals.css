@@ -1,8 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base {
-  :root {
-    --radius: 0.5rem
-  }
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  background-color: white;
+  padding: 24px;
+  border-radius: 100px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  font-size: 28px !important;
+  color: #0474c1 o !important;
+  font-weight: bold;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  background-color: white;
+  padding: 24px;
+  border-radius: 100px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  font-size: 28px !important;
+  color: #0474c1 o !important;
+  font-weight: bold;
 }
